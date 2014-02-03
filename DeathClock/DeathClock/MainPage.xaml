@@ -47,10 +47,10 @@
             <ComboBoxItem Content="No"/>
         </ComboBox>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="You will die on:" VerticalAlignment="Top" Height="61" Width="282" Margin="928,213,0,0" FontSize="24"/>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Do you smoke?" VerticalAlignment="Top" Height="61" Width="98" Margin="928,414,0,0" FontSize="24"/>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Do you smoke?" VerticalAlignment="Top" Height="61" Width="98" Margin="1064,414,0,0" FontSize="24"/>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Do you smoke?" VerticalAlignment="Top" Height="61" Width="98" Margin="1203,414,0,0" FontSize="24"/>
-        <Button Content="Calculate" HorizontalAlignment="Left" Margin="590,657,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <TextBlock x:Name="date" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="61" Width="98" Margin="853,414,0,0" FontSize="24"/>
+        <TextBlock x:Name="month" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="61" Width="155" Margin="1004,414,0,0" FontSize="24"/>
+        <TextBlock x:Name="year" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="61" Width="98" Margin="1182,414,0,0" FontSize="24"/>
+        <Button Content="Calculate" HorizontalAlignment="Left" Margin="590,657,0,0" VerticalAlignment="Top" FontSize="36" Click="Button_Click"/>
 
     </Grid>
 </Page>

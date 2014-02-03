@@ -34,5 +34,23 @@ namespace DeathClock
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Random randomdate = new Random();
+            int randdate = randomdate.Next(1, 29);
+
+            string[] monthyear = { "January", "February", "March", "April", "May",
+                                     "June", "July", "August", "September", "October", "November",
+                                 "December"};
+           
+            Random yeardate = new Random();
+            int randyear = yeardate.Next(1980, 2100);
+
+            date.Text = randdate.ToString();
+            month.Text = monthyear[new Random().Next(0, monthyear.Length)];
+            year.Text = randyear.ToString();
+              
+        }
     }
 }
