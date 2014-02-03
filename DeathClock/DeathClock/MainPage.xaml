@@ -8,6 +8,49 @@
     mc:Ignorable="d">
 
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Death Clock" VerticalAlignment="Top" Height="61" Width="282" Margin="536,25,0,0" FontSize="48"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Do you smoke?" VerticalAlignment="Top" Height="61" Width="282" Margin="98,213,0,0" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="282" Margin="98,294,0,0" FontSize="24">
+        	<Run Text="Do you "/>
+        	<Run Text="exercise"/>
+        	<Run Text="?"/>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Do you live in a city?" VerticalAlignment="Top" Height="61" Width="282" Margin="98,389,0,0" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="282" Margin="98,571,0,0" FontSize="24">
+        	<Run Text="Do you "/>
+        	<Run Text="eat fatty foods"/>
+        	<Run Text="?"/>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="282" Margin="98,479,0,0" FontSize="24">
+        	<Run Text="Do you  "/>
+        	<Run Text="eat your five a day"/>
+        	<Run Text="?"/>
+        </TextBlock>
+        <ComboBox HorizontalAlignment="Left" Margin="467,213,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="Yes"/>
+            <ComboBoxItem Content="No"/>
+        </ComboBox>
+        <ComboBox HorizontalAlignment="Left" Margin="467,571,0,0" VerticalAlignment="Top" Width="120">
+              <ComboBoxItem Content="Yes"/>
+             <ComboBoxItem Content="No"/>
+        </ComboBox>
+        <ComboBox HorizontalAlignment="Left" Margin="467,479,0,0" VerticalAlignment="Top" Width="120">
+        <ComboBoxItem Content="Yes"/>
+        <ComboBoxItem Content="No"/>
+        </ComboBox>
+        <ComboBox HorizontalAlignment="Left" Margin="467,389,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="Yes"/>
+            <ComboBoxItem Content="No"/>
+        </ComboBox>
+        <ComboBox HorizontalAlignment="Left" Margin="467,294,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="Yes"/>
+            <ComboBoxItem Content="No"/>
+        </ComboBox>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="You will die on:" VerticalAlignment="Top" Height="61" Width="282" Margin="928,213,0,0" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Do you smoke?" VerticalAlignment="Top" Height="61" Width="98" Margin="928,414,0,0" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Do you smoke?" VerticalAlignment="Top" Height="61" Width="98" Margin="1064,414,0,0" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Do you smoke?" VerticalAlignment="Top" Height="61" Width="98" Margin="1203,414,0,0" FontSize="24"/>
+        <Button Content="Calculate" HorizontalAlignment="Left" Margin="590,657,0,0" VerticalAlignment="Top" FontSize="36"/>
 
     </Grid>
 </Page>
